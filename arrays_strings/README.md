@@ -11,9 +11,9 @@ They underpin a wide range of algorithms—from two‑pointer and sliding‑wind
 
 ## Subtopics Covered
 1. [**Basics & Pitfalls**](basics)
-    - [Traversal & indexing](basics\traversal_indexing.cpp)
-    - [In-place swapping & reversing](basics\reverse_swap.cpp)
-    - [Pitfall table](basics\pitfall_table.md)
+    - [Traversal & indexing](basics/traversal_indexing.cpp)
+    - [In-place swapping & reversing](basics/reverse_swap.cpp)
+    - [Pitfall table](basics/pitfall_table.md)
 
 2. [**Two-Pointer Pattern**](two_pointers)
     - Opposing pointers (pair sum, container-with-most-water)
