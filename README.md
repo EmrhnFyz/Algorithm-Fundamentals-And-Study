@@ -36,7 +36,7 @@ Each folder corresponds to a major topic. Start with the ones most relevant to y
 
 ### 1. **Arrays & Strings**
     
-   - [X] [Basics & Pitfalls](arrays-strings/basics)
+   - [X] [Basics & Pitfalls](arrays_strings/basics)
      - [ ] Traversal & indexing
      - [ ] In-place swapping & reversing
      - [ ] Pitfalls table
