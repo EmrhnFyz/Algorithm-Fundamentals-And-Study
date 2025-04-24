@@ -37,10 +37,10 @@ Each folder corresponds to a major topic. Start with the ones most relevant to y
 ### 1. **Arrays & Strings**
     
    - [X] [Basics & Pitfalls](arrays_strings/basics)
-     - [ ] Traversal & indexing
-     - [ ] In-place swapping & reversing
-     - [ ] Pitfalls table
-   - [ ] Two-Pointers (e.g., pair sum, container with most water)
+     - [X] Traversal & indexing
+     - [X] In-place swapping & reversing
+     - [X] Pitfalls table
+   - [ ] [Two-Pointers (e.g., pair sum, container with most water)](arrays_strings/two_pointers)
    - [ ] Sliding-Window (max/min subarray sum, longest substring w/o repeats)
    - [ ] Prefix-Sum (range-sum queries, subarray sum equals K)
    - [ ] Kadane’s Algorithm (maximum subarray sum)
