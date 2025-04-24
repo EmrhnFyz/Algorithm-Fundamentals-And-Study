@@ -1,7 +1,8 @@
-﻿#include <iostream>
+﻿#include <cassert>
+#include <iostream>
 #include <vector>
-#include <cassert>
 
+#include <__msvc_ostream.hpp>
 using namespace std;
 
 int main()

@@ -12,10 +12,12 @@ endif()
 project ("Algorithm-Fundamentals-And-Study")
 
 # Add source to this project's executable.
-add_executable (Algorithm-Fundamentals-And-Study arrays-strings/basics/TraversalIndexing.cpp)
+add_executable(traversalIndexing arrays_strings/basics/traversal_indexing.cpp)
+add_executable(reverseSwap      arrays_strings/basics/reverse_swap.cpp)
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET Algorithm-Fundamentals-And-Study PROPERTY CXX_STANDARD 20)
+	set(CMAKE_CXX_STANDARD 20)
+	set(CMAKE_CXX_STANDARD_REQUIRED ON)
 endif()
 
 # TODO: Add tests and install targets if needed.
