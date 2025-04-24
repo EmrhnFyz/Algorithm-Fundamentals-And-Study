@@ -15,7 +15,7 @@ They underpin a wide range of algorithms—from two‑pointer and sliding‑wind
     - [In-place swapping & reversing](basics/reverse_swap.cpp)
     - [Pitfall table](basics/pitfall_table.md)
 
-2. [**Two-Pointer Pattern**](basics/two_pointers)
+2. [**Two-Pointer Pattern**](two_pointers)
     - Opposing pointers (pair sum, container-with-most-water)
     - Fast/slow pointers (middle‑of‑list, cycle detection)
 
