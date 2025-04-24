@@ -40,7 +40,7 @@ Each folder corresponds to a major topic. Start with the ones most relevant to y
      - [X] [Traversal & indexing](arrays_strings/basics/traversal_indexing.cpp)
      - [X] [In-place swapping & reversing](arrays_strings/basics/reverse_swap.cpp)
      - [X] [Pitfalls table](arrays_strings/basics/pitfall_table.md)
-   - [ ] [Two-Pointers (e.g., pair sum, container with most water)](arrays_strings\two_pointers)
+   - [ ] [Two-Pointers (e.g., pair sum, container with most water)](arrays_strings/two_pointers)
    - [ ] Sliding-Window (max/min subarray sum, longest substring w/o repeats)
    - [ ] Prefix-Sum (range-sum queries, subarray sum equals K)
    - [ ] Kadane’s Algorithm (maximum subarray sum)
