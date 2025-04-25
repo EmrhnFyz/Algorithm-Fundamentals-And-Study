@@ -34,7 +34,7 @@ Each folder corresponds to a major topic. Start with the ones most relevant to y
 
 ## 📂 Topics Covered
 
-### 1. **Arrays & Strings**
+### 1. [**Arrays & Strings**](arrays_strings)
     
    - [X] [**Basics & Pitfalls**](arrays_strings/basics)
      - [X] [Traversal & indexing](arrays_strings/basics/traversal_indexing.cpp)
