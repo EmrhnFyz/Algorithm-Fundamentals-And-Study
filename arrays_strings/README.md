@@ -16,8 +16,15 @@ They underpin a wide range of algorithms—from two‑pointer and sliding‑wind
     - [Pitfall table](basics/pitfall_table.md)
 
 2. [**Two-Pointer Pattern**](two_pointers)
-    - Opposing pointers (pair sum, container-with-most-water)
-    - Fast/slow pointers (middle‑of‑list, cycle detection)
+    - [Opposing pointers](two_pointers/opposing_pointers)
+      - [Container with Most Water](two_pointers/opposing_pointers/container_with_most_water.cpp)
+      - [Is Palindrome](two_pointers/opposing_pointers/is_palindrome.cpp)
+      - [Reverse String](two_pointers/opposing_pointers/reverse_string.cpp)
+      - [Trap Rain Water](two_pointers/opposing_pointers/trap_rain_water.cpp)
+      - [Two Sum (Sorted)](two_pointers/opposing_pointers/two_sum_sorted.cpp)
+      - [Two Sum (Unsorted)](two_pointers/opposing_pointers/two_sum_unsorted.cpp)
+      - [Pattern Overview](two_pointers/opposing_pointers/README.md)
+    - [Fast/slow pointers](two_pointers/fast_slow_pointers)
 
 3. **Sliding-Window Pattern**
     - Fixed-size window (max/min subarray sum of length K)
