@@ -63,7 +63,9 @@ Each folder corresponds to a major topic. Start with the ones most relevant to y
      - [X] [Range Sum Query (Immutable)](arrays_strings/prefix_sum/range_sum_query_immutable.cpp)
      - [X] [Subarray Sum Equals K](arrays_strings/prefix_sum/subarray_sum_equals_k.cpp)
      - [X] [Pattern Overview](arrays_strings/prefix_sum/README.md)
-   - [ ] Kadane’s Algorithm (maximum subarray sum)
+   - [X] [Kadane’s Algorithm](arrays_strings/kadane_algorithm)
+     - [X] [Maximum Subarray Sum](arrays_strings/kadane_algorithm/maximum_subarray_sum.cpp)
+     - [X] [Pattern Overview](arrays_strings/kadane_algorithm/README.md) 
 
 ### 2. **Searching & Sorting**
    - [ ] Binary Search (on sorted arrays, rotated-array search, answer-space search)
