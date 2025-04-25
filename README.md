@@ -49,7 +49,11 @@ Each folder corresponds to a major topic. Start with the ones most relevant to y
         - [X] [Two Sum (Sorted)](arrays_strings/two_pointers/opposing_pointers/two_sum_sorted.cpp)
         - [X] [Two Sum (Unsorted)](arrays_strings/two_pointers/opposing_pointers/two_sum_unsorted.cpp)
         - [X] [Pattern Overview](arrays_strings/two_pointers/opposing_pointers/README.md)
-   - [ ] Fast/slow pointers
+      - [X] [Fast/slow pointers](arrays_strings/two_pointers/fast_slow_pointers)
+        - [X] [Detect Cycle in Linked List](arrays_strings/two_pointers/fast_slow_pointers/detect_cycle_in_linked_list.cpp)
+        - [X] [Find Cycle Start](arrays_strings/two_pointers/fast_slow_pointers/find_cycle_start.cpp)
+        - [X] [Find Middle of Linked List](arrays_strings/two_pointers/fast_slow_pointers/find_middle_of_linked_list.cpp)
+        - [X] [Pattern Overview](arrays_strings/two_pointers/fast_slow_pointers/README.md)   
    - [ ] Sliding-Window (max/min subarray sum, longest substring w/o repeats)
    - [ ] Prefix-Sum (range-sum queries, subarray sum equals K)
    - [ ] Kadane’s Algorithm (maximum subarray sum)

@@ -25,6 +25,9 @@ They underpin a wide range of algorithms—from two‑pointer and sliding‑wind
       - [Two Sum (Unsorted)](two_pointers/opposing_pointers/two_sum_unsorted.cpp)
       - [Pattern Overview](two_pointers/opposing_pointers/README.md)
     - [Fast/slow pointers](two_pointers/fast_slow_pointers)
+        - [Detect Cycle in Linked List](two_pointers/fast_slow_pointers/detect_cycle_in_linked_list.cpp)
+        - [Find Cycle Start](two_pointers/fast_slow_pointers/find_cycle_start.cpp)
+        - [Find Middle of Linked List](two_pointers/fast_slow_pointers/find_middle_of_linked_list.cpp) 
 
 3. **Sliding-Window Pattern**
     - Fixed-size window (max/min subarray sum of length K)
