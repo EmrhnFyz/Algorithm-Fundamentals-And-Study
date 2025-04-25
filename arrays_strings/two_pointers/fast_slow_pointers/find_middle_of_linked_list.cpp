@@ -56,7 +56,7 @@ ListNode* FindMiddle(ListNode* head)
 
 #pragma region Utilities
 // Helper to build a list from array values
-ListNode* buildList(const initializer_list<int>& vals)
+ListNode* BuildList(const initializer_list<int>& vals)
 {
 	ListNode dummy(0);
 	ListNode* tail = &dummy;
@@ -84,14 +84,14 @@ void PrintList(ListNode* head)
 
 int main()
 {
-	ListNode* head = buildList({ 1, 2, 3, 4, 5, 6 });
+	ListNode* head = BuildList({ 1, 2, 3, 4, 5, 6 });
 	cout << "Original list: ";
 	PrintList(head);
 
 	ListNode* mid = FindMiddle(head);
 	cout << "Middle node: " << mid->val << endl; // Expected: 4
 
-	ListNode* head2 = buildList({ 1, 2, 3, 4, 5 });
+	ListNode* head2 = BuildList({ 1, 2, 3, 4, 5 });
 	cout << "Original list: ";
 	PrintList(head2);
 
