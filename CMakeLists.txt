@@ -29,6 +29,10 @@ add_executable(LongestSubstringWithKDistinct				arrays_strings/sliding_window/lo
 add_executable(MaxSumOfSubarrayFixed						arrays_strings/sliding_window/max_sum_of_subarray_fixed.cpp)
 add_executable(MinSubarrayLengthGreaterOrEqualThanTarget	arrays_strings/sliding_window/min_subarray_length_greater_or_equal_than_target.cpp)
 
+add_executable(RangeSumQueryImmutable						arrays_strings/prefix_sum/range_sum_query_immutable.cpp)
+add_executable(SubarraySumEqualsK							arrays_strings/prefix_sum/subarray_sum_equals_k.cpp)
+
+
 if (CMAKE_VERSION VERSION_GREATER 3.12)
 	set(CMAKE_CXX_STANDARD 20)
 	set(CMAKE_CXX_STANDARD_REQUIRED ON)

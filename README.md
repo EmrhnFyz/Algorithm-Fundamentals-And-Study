@@ -58,8 +58,11 @@ Each folder corresponds to a major topic. Start with the ones most relevant to y
      - [X] [Longest Substring with K Distinct](arrays_strings/sliding_window/longest_substring_with_k_distinct.cpp)
      - [X] [Max Sum of Subarray (Fixed)](arrays_strings/sliding_window/max_sum_of_subarray_fixed.cpp)
      - [X] [Min Subarray Length ≥ Target (Variable)](arrays_strings/sliding_window/min_subarray_length_greater_or__equal_than_target.cpp)
-     - [ ] [Pattern Overview](arrays_strings/sliding_window/README.md)
-   - [ ] Prefix-Sum (range-sum queries, subarray sum equals K)
+     - [X] [Pattern Overview](arrays_strings/sliding_window/README.md)
+   - [X] [Prefix Sum](arrays_strings/prefix_sum)
+     - [X] [Range Sum Query (Immutable)](arrays_strings/prefix_sum/range_sum_query_immutable.cpp)
+     - [X] [Subarray Sum Equals K](arrays_strings/prefix_sum/subarray_sum_equals_k.cpp)
+     - [X] [Pattern Overview](arrays_strings/prefix_sum/README.md)
    - [ ] Kadane’s Algorithm (maximum subarray sum)
 
 ### 2. **Searching & Sorting**
