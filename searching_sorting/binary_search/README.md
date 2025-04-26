@@ -58,11 +58,11 @@ Modify this template carefully depending on:
 - Whether searching in a conceptual space (answer space search)
 
 ## Common Problems
-| Problem                        | Idea                                                                         |
-|--------------------------------|------------------------------------------------------------------------------|
-| Standard Binary Search         | Classic find target in sorted array                                          |
-| Search in Rotated Sorted Array | Adapt binary search to rotated arrays by reasoning about sorted halves       |
-| Binary Search on Answer Space  | When elements aren’t sorted, but the range of answers can be binary searched |
+| Problem                                                              | Idea                                                                                                                        |
+|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| [Standard Binary Search](standard_binary_search.cpp)                 | Search for an exact value in a fully sorted array by dividing search space in half each step.                               |
+| [Search in Rotated Sorted Array](search_in_rotated_sorted_array.cpp) | Identify sorted half at each step. Decide whether to search left or right based on target position relative to sorted side. |
+| [Binary Search on Answer Space](binary_search_on_answer_space.cpp)   | Find the minimum/maximum feasible value by binary searching the answer space.                                               |
 
 ## Key Takeaways
 - **Base condition**: always ensure left ≤ right, and mid is safely calculated (avoid overflow).

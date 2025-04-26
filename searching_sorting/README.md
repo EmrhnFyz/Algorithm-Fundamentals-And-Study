@@ -21,7 +21,7 @@ Efficient search/sort strategies drastically improve runtime:
 1. [**📁 Binary Search Variations**](binary_search)
     - [Standard Binary Search](binary_search/standard_binary_search.cpp)
     - [Search in Rotated Sorted Array](binary_search/search_in_rotated_sorted_array.cpp)
-    - [Binary Search on Answer Space](binary_search/binary_search_answer_space.cpp)
+    - [Binary Search on Answer Space](binary_search/binary_search_on_answer_space.cpp)
 2. [**📁 Comparison-Based Sorting**](comparison_sort)
     - [Merge Sort](comparison_sort/merge_sort.cpp)
     - [Quick Sort](comparison_sort/quick_sort.cpp)

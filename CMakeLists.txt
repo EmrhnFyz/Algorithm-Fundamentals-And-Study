@@ -35,6 +35,10 @@ add_executable(SubarraySumEqualsK							arrays_strings/prefix_sum/subarray_sum_e
 
 add_executable(MaximumSubarraySum							arrays_strings/kadane_algorithm/maximum_subarray_sum.cpp)
 
+add_executable(StandardBinarySearch							searching_sorting/binary_search/standard_binary_search.cpp)
+add_executable(SearchInRotatedSortedArray					searching_sorting/binary_search/search_in_rotated_sorted_array.cpp)
+add_executable(BinarySearchOnAnswerSpace					searching_sorting/binary_search/binary_search_on_answer_space.cpp)
+
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
 	set(CMAKE_CXX_STANDARD 20)

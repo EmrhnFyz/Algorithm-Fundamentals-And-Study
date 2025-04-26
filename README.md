@@ -68,7 +68,10 @@ Each folder corresponds to a major topic. Start with the ones most relevant to y
      - [X] [Pattern Overview](arrays_strings/kadane_algorithm/README.md) 
 
 ### 2. [**📁 Searching & Sorting**](searching_sorting)
-   - [ ] Binary Search (on sorted arrays, rotated-array search, answer-space search)
+   - [X] [**📁 Binary Search**](searching_sorting/binary_search)
+     - [X] [Standard Binary Search](searching_sorting/binary_search/standard_binary_search.cpp)
+     - [X] [Search in Rotated Sorted Array](searching_sorting/binary_search/search_in_rotated_sorted_array.cpp)
+     - [X] [Binary Search on Answer Space](searching_sorting/binary_search/binary_search_on_answer_space.cpp)
    - [ ] Quick Sort, Merge Sort, Heap Sort (divide-and-conquer, in-place vs. extra space)
    - [ ] Counting Sort / Radix Sort (when elements are in a limited range)
 
