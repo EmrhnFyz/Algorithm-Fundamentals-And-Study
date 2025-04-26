@@ -41,7 +41,10 @@ add_executable(BinarySearchOnAnswerSpace					searching_sorting/binary_search/bin
 
 add_executable(MergeSort									searching_sorting/comparison_based_sorting/merge_sort.cpp)
 add_executable(QuickSort									searching_sorting/comparison_based_sorting/quick_sort.cpp)
-add_executable(HeapSort									searching_sorting/comparison_based_sorting/heap_sort.cpp)
+add_executable(HeapSort										searching_sorting/comparison_based_sorting/heap_sort.cpp)
+
+add_executable(CountingSort									searching_sorting/counting_based_sorting/counting_sort.cpp)
+add_executable(RadixSort									searching_sorting/counting_based_sorting/radix_sort.cpp)
 
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)

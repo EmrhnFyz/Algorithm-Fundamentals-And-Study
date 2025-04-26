@@ -76,7 +76,9 @@ Each folder corresponds to a major topic. Start with the ones most relevant to y
      - [X] [Heap Sort](searching_sorting/comparison_based_sorting/heap_sort.cpp)
      - [X] [Merge Sort](searching_sorting/comparison_based_sorting/merge_sort.cpp)
      - [X] [Quick Sort](searching_sorting/comparison_based_sorting/quick_sort.cpp)
-   - [ ] Counting Sort / Radix Sort (when elements are in a limited range)
+   - [X] [**📁 Counting-Based Sorting**](searching_sorting/counting_based_sorting)
+     - [X] [Counting Sort](searching_sorting/counting_based_sorting/counting_sort.cpp)
+     - [X] [Radix Sort](searching_sorting/counting_based_sorting/radix_sort.cpp)
 
 ### 3. **Linked Lists, Stacks & Queues**
    - [ ] Linked-List Manipulations (reverse list, detect/remove cycle via Floyd’s algorithm)

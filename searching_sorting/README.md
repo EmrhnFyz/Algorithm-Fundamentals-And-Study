@@ -31,9 +31,9 @@ Mastery of these strategies enables optimization across dynamic programming, gre
     - [Heap Sort](comparison_based_sorting/heap_sort.cpp)
     - [Merge Sort](comparison_based_sorting/merge_sort.cpp)
     - [Quick Sort](comparison_based_sorting/quick_sort.cpp)
-3. [**📁 Counting-Based Sorting**](counting_sort)
-    - [Counting Sort](counting_sort/counting_sort.cpp)
-    - [Radix Sort](counting_sort/radix_sort.cpp)
+3. [**📁 Counting-Based Sorting**](counting_based_sorting)
+    - [Counting Sort](counting_based_sorting/counting_sort.cpp)
+    - [Radix Sort](counting_based_sorting/radix_sort.cpp)
 
 ## Key Takeaways
 - **Binary Search** efficiently narrows down search spaces in O(log N) time.
