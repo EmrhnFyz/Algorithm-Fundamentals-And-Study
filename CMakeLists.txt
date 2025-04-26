@@ -39,6 +39,10 @@ add_executable(StandardBinarySearch							searching_sorting/binary_search/standa
 add_executable(SearchInRotatedSortedArray					searching_sorting/binary_search/search_in_rotated_sorted_array.cpp)
 add_executable(BinarySearchOnAnswerSpace					searching_sorting/binary_search/binary_search_on_answer_space.cpp)
 
+add_executable(MergeSort									searching_sorting/comparison_based_sorting/merge_sort.cpp)
+add_executable(QuickSort									searching_sorting/comparison_based_sorting/quick_sort.cpp)
+add_executable(HeapSort									searching_sorting/comparison_based_sorting/heap_sort.cpp)
+
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
 	set(CMAKE_CXX_STANDARD 20)

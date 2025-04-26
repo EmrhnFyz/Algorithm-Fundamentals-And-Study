@@ -1,40 +1,45 @@
 ﻿# Searching & Sorting
 
 ## What?
-Searching and sorting algorithms are essential for efficiently retrieving, organizing, and processing data. 
-They serve as the foundation for countless algorithmic strategies — from binary search to divide‑and‑conquer sorting to optimization techniques.
+Searching and sorting algorithms are fundamental techniques for efficiently **retrieving**, **organizing**, and **optimizing** data.  
+They form the basis for countless higher-level strategies — from binary search and divide‑and‑conquer sorting to feasibility optimization.
 
 ## When?
-Apply searching and sorting whenever you need to:
-- Find specific values or conditions within data (searching)
-- Reorganize data for easier access, binary search compatibility, or efficient aggregation (sorting)
+Apply searching and sorting techniques when you need to:
+- **Find** specific values or satisfy conditions efficiently (searching)
+- **Rearrange** data for faster querying, binary search compatibility, or aggregation (sorting)
 
-Common in interview problems involving "search in sorted array", "find minimum", "optimize selection", and "preprocessing before further steps".
+These patterns frequently appear in problems involving:
+- "Search for element/condition in a sorted array"
+- "Find minimum/maximum satisfying a constraint"
+- "Preprocess data before optimization or selection"
 
 ## Why?
-Efficient search/sort strategies drastically improve runtime:
-- **Binary search** cuts problem size by half each step (O(log N)).
-- **Efficient sorts** like Merge Sort, Quick Sort, and Heap Sort prepare data for faster searching, comparison, or aggregation tasks.
-- Mastery over these patterns unlocks optimization opportunities across almost every problem domain.
+Efficient searching and sorting drastically improve runtime:
+- **Binary Search** cuts problem size in half each iteration (O(log N)).
+- **Efficient Sorts** like Merge Sort, Quick Sort, and Heap Sort prepare data for faster subsequent operations.
+- **Counting-based sorts** like Counting Sort and Radix Sort break traditional O(N log N) limits under certain input constraints.
+
+Mastery of these strategies enables optimization across dynamic programming, greedy algorithms, graph problems, and real-world systems.
 
 ## Subtopics Covered
 1. [**📁 Binary Search Variations**](binary_search)
-    - [Standard Binary Search](binary_search/standard_binary_search.cpp)
-    - [Search in Rotated Sorted Array](binary_search/search_in_rotated_sorted_array.cpp)
-    - [Binary Search on Answer Space](binary_search/binary_search_on_answer_space.cpp)
-2. [**📁 Comparison-Based Sorting**](comparison_sort)
-    - [Merge Sort](comparison_sort/merge_sort.cpp)
-    - [Quick Sort](comparison_sort/quick_sort.cpp)
-    - [Heap Sort](comparison_sort/heap_sort.cpp)
+    - [Standard Binary Search](binary_search/standard_binary_search.cpp) — Find an exact value in a fully sorted array.
+    - [Search in Rotated Sorted Array](binary_search/search_in_rotated_sorted_array.cpp) — Identify sorted halves and locate the target accordingly.
+    - [Binary Search on Answer Space](binary_search/binary_search_on_answer_space.cpp) — Find the minimum/maximum feasible value via binary search over conceptual answer ranges.
+2. [**📁 Comparison-Based Sorting**](comparison_based_sorting)
+    - [Heap Sort](comparison_based_sorting/heap_sort.cpp)
+    - [Merge Sort](comparison_based_sorting/merge_sort.cpp)
+    - [Quick Sort](comparison_based_sorting/quick_sort.cpp)
 3. [**📁 Counting-Based Sorting**](counting_sort)
     - [Counting Sort](counting_sort/counting_sort.cpp)
     - [Radix Sort](counting_sort/radix_sort.cpp)
 
 ## Key Takeaways
-- **Binary search** efficiently narrows down sorted search spaces in O(log N) time.
-- **Merge Sort** and **Quick Sort** use divide‑and‑conquer to achieve O(N log N) average time for general sorting.
-- **Heap Sort** provides sorting with guaranteed O(N log N) time and in-place memory usage.
-- **Counting Sort** and **Radix Sort** outperform comparison sorts (O(N)) when input constraints (small ranges, fixed digit lengths) are favorable.
-- **Searching optimization**: sometimes we can binary search not the array itself, but the **answer space** (e.g., minimum feasible value).
+- **Binary Search** efficiently narrows down search spaces in O(log N) time.
+- **Merge Sort** and **Quick Sort** use divide-and-conquer for O(N log N) average runtime sorting.
+- **Heap Sort** guarantees O(N log N) sorting while operating in-place.
+- **Counting Sort** and **Radix Sort** achieve O(N) performance when input size or digit constraints allow.
+- **Optimization Insight**: sometimes binary search applies not directly to the array, but to the **space of possible answers** (e.g., minimizing/maximizing a feasible threshold).
 
-Mastering search and sort unlocks the ability to efficiently tackle higher-level dynamic programming, greedy optimization, and graph algorithms.
+Mastering search and sorting patterns unlocks performance improvements across almost every algorithm category and real-world system design.

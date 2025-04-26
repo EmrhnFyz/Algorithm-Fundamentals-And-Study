@@ -72,7 +72,10 @@ Each folder corresponds to a major topic. Start with the ones most relevant to y
      - [X] [Standard Binary Search](searching_sorting/binary_search/standard_binary_search.cpp)
      - [X] [Search in Rotated Sorted Array](searching_sorting/binary_search/search_in_rotated_sorted_array.cpp)
      - [X] [Binary Search on Answer Space](searching_sorting/binary_search/binary_search_on_answer_space.cpp)
-   - [ ] Quick Sort, Merge Sort, Heap Sort (divide-and-conquer, in-place vs. extra space)
+   - [X] [**📁 Comparison-Based Sorting**](searching_sorting/comparison_based_sorting)
+     - [X] [Heap Sort](searching_sorting/comparison_based_sorting/heap_sort.cpp)
+     - [X] [Merge Sort](searching_sorting/comparison_based_sorting/merge_sort.cpp)
+     - [X] [Quick Sort](searching_sorting/comparison_based_sorting/quick_sort.cpp)
    - [ ] Counting Sort / Radix Sort (when elements are in a limited range)
 
 ### 3. **Linked Lists, Stacks & Queues**
