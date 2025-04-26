@@ -15,20 +15,35 @@ Opposing pointers allow linear-time traversal **without extra space** and are id
 - Area or distance calculations (`container with most water`)
 
 ## How?
+The idea is to use **two pointers** starting from opposite ends (left and right) and move them toward each other based on problem-specific conditions:
+1. Initialize two pointers: `left` at the start (index 0), `right` at the end (index n-1).
+2. **At each step**, inspect the elements at both pointers (e.g., calculate their sum, compare their values, compute area).
+3. **Move the pointer** that helps you get closer to your goal:
+   1. If you need a larger sum or value, move `left` forward (`++left`).
+   2. If you need a smaller sum or value, move `right` backward (`--right`).
+4. Repeat until the two pointers meet (`left >= right`).
 
-General approach:
+This technique is powerful because it ensures **every element is considered at most once**, leading to **O(N)** efficiency without needing extra space.
+
+### 📜 Core Template:
 ```cpp
 int left = 0;
 int right = static_cast<int>(nums.size()) - 1;
 
-while (left < right) {
+while (left < right) 
+{
     int sum = nums[left] + nums[right];
     
-    if (sum == target) {
+    if (sum == target) 
+    {
         // Found a valid pair
-    } else if (sum < target) {
+    } 
+    else if (sum < target) 
+    {
         ++left; // Need a larger sum
-    } else {
+    } 
+    else 
+    {
         --right; // Need a smaller sum
     }
 }
@@ -37,7 +52,7 @@ while (left < right) {
 | Problem                                                    | Idea                                                                                                                         |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | [Container With Most Water](container_with_most_water.cpp) | Move inward while tracking max area formed by two heights.                                                                   |
-| [Is Palindrome](is_palindrome.cpp)                      | Compare characters from both ends to check if a string is a palindrome.                                                      |
+| [Is Palindrome](is_palindrome.cpp)                         | Compare characters from both ends to check if a string is a palindrome.                                                      |
 | [Reverse String](reverse_string.cpp)                       | Swap characters from both ends.                                                                                              |
 | [Two Sum (Sorted)](two_sum_sorted.cpp)                     | Find two numbers that add up to a target.                                                                                    |
 | [Two Sum (Unsorted)](two_sum_unsorted.cpp)                 | Use a hash map to track seen values. For each number, check if the complement exists.                                        |

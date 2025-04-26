@@ -67,7 +67,7 @@ Each folder corresponds to a major topic. Start with the ones most relevant to y
      - [X] [Maximum Subarray Sum](arrays_strings/kadane_algorithm/maximum_subarray_sum.cpp)
      - [X] [Pattern Overview](arrays_strings/kadane_algorithm/README.md) 
 
-### 2. **Searching & Sorting**
+### 2. [**📁 Searching & Sorting**](searching_sorting)
    - [ ] Binary Search (on sorted arrays, rotated-array search, answer-space search)
    - [ ] Quick Sort, Merge Sort, Heap Sort (divide-and-conquer, in-place vs. extra space)
    - [ ] Counting Sort / Radix Sort (when elements are in a limited range)

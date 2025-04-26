@@ -16,9 +16,9 @@ This allows us to compute **sum of any subarray [i...j] in O(1)** using:
 
 ## ⚠️ Immutable vs Mutable Range Sum
 
-| Type      | Can Update Array? | Query Time | Update Time | Tool Needed         |
-|-----------|-------------------|------------|-------------|---------------------|
-| Immutable | ❌ No              | ✅ O(1)     | ❌ N/A       | Prefix Sum (this pattern) |
+| Type      | Can Update Array? | Query Time | Update Time | Tool Needed                 |
+|-----------|-------------------|------------|-------------|-----------------------------|
+| Immutable | ❌ No              | ✅ O(1)     | ❌ N/A       | Prefix Sum (this pattern)   |
 | Mutable   | ✅ Yes             | ✅ O(log n) | ✅ O(log n)  | Segment Tree / Fenwick Tree |
 
 ### 🔸 Why prefix sum doesn't work for mutable arrays:
@@ -31,16 +31,24 @@ Prefix sum avoids recomputing sums repeatedly. Once precomputed, it lets you:
 - Count matching patterns across large data ranges efficiently
 
 ## How?
+Prefix sums work by accumulating values from left to right:
+1. Start with a base value (prefix[0] = 0) — representing the sum before any elements.
+2. For each element i in the array:
+   1. Add it to the cumulative sum from the previous step.
+   2. Store this running total in prefix[i + 1].
+3. Once the prefix array is built, the sum of any subarray nums[i...j] can be quickly computed as:
+   1. prefix[j + 1] - prefix[i]
+4. This turns a potentially O(n) subarray sum operation into O(1) after O(n) preprocessing.
 
 ### 📦 Prefix Sum Construction
 
 ```cpp
 vector<int> prefix(nums.size() + 1, 0); // +1 to simplify the math
 
-for (int i = 0; i < nums.size(); ++i) {
+for (int i = 0; i < nums.size(); ++i) 
+{
     prefix[i + 1] = prefix[i] + nums[i];
 }
-
 ```
 Now:
 - prefix[3] = sum of nums[0] + nums[1] + nums[2]

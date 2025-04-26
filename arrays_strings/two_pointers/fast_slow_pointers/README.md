@@ -14,18 +14,32 @@ The fast & slow pointer technique involves two pointers moving at different spee
 Fast & slow pointers reduce the need for extra space like hash sets or arrays. They can often replace brute-force or recursive solutions with **O(n)** time and **O(1)** space.
 
 ## How?
+Fast & slow pointers involve two pointers moving through the data structure at different speeds:
 
+1. **Initialization**: Start both `slow` and `fast` pointers at the beginning (e.g., `head` of a linked list).
+2. **Movement**:
+    1. `slow` moves forward **one step at a time**.
+    2. `fast` moves forward **two steps at a time**.
+3. **Detection**:
+    1. If the data structure has a **cycle**, the fast pointer will eventually "lap" the slow pointer, and they will meet.
+    2. If there is **no cycle**, the fast pointer will eventually reach the end (`nullptr`).
+4. **Finding the Middle**:
+    1. In a non-cyclic structure (like a normal linked list), when `fast` reaches the end, `slow` will be positioned at the middle node.
+
+This method ensures **O(n)** time and **O(1)** space, with no need for extra data structures.
 ### 🐢🐇 Classic Pattern
 
 ```cpp
 ListNode* slow = head;
 ListNode* fast = head;
 
-while (fast && fast->next) {
+while (fast && fast->next) 
+{
     slow = slow->next;
     fast = fast->next->next;
 
-    if (slow == fast) {
+    if (slow == fast) 
+    {
         // Cycle detected
     }
 }

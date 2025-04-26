@@ -28,13 +28,19 @@ Two pointers reduce many quadratic-time approaches down to **O(N)** by moving po
 ```cpp
 int leftPointer = 0;
 int rightPointer = static_cast<int>(numbers.size()) - 1;
-while (leftPointer < rightPointer) {
+while (leftPointer < rightPointer) 
+{
     int sum = numbers[leftPointer] + numbers[rightPointer];
-    if (sum == target) {
+    if (sum == target) 
+    {
         // found a pair
-    } else if (sum < target) {
+    } 
+    else if (sum < target) 
+    {
         ++leftPointer;
-    } else {
+    } 
+    else 
+    {
         --rightPointer;
     }
 }
@@ -53,7 +59,9 @@ while (leftPointer < rightPointer) {
 ```cpp
 ListNode* slow = head;
 ListNode* fast = head;
-while (fast && fast->next) {
+
+while (fast && fast->next) 
+{
     slow = slow->next;
     fast = fast->next->next;
 }

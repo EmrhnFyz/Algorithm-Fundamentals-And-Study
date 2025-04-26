@@ -36,11 +36,11 @@ Sliding Window helps reduce **nested loops** and achieves **O(n)** or **O(n log 
 
 ## Common Problems
 
-| Problem                                                                                          | Idea                                                                                           |
-|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [Longest Substring with K Distinct](longest_substring_with_k_distinct.cpp)                       | Expand window and track character counts; shrink window when distinct count exceeds K.         |
-| [Max Sum of Subarray (Fixed)](max_sum_of_subarray_fixed.cpp)                                     | Maintain a running sum of window size `k`, subtract the element going out and add the new one. |
-| [Min Subarray Length ≥ Target (Variable)](min_subarray_length_greater_or__equal_than_target.cpp) | Expand window until it meets condition, then shrink from the left to minimize.                 |
+| Problem                                                                                          | Idea                                                                                            |
+|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| [Longest Substring with K Distinct](longest_substring_with_k_distinct.cpp)                       | Expand window and track character counts; shrink window when distinct count exceeds K.          |
+| [Max Sum of Subarray (Fixed)](max_sum_of_subarray_fixed.cpp)                                     | Maintain a running sum of window size `k`, subtract the element going out and add the new one.  |
+| [Min Subarray Length ≥ Target (Variable)](min_subarray_length_greater_or__equal_than_target.cpp) | Expand window until it meets condition, then shrink from the left to minimize.                  |
 
 ## Time & Space Complexity
 - Time: usually **O(n)** — each element enters and exits the window at most once

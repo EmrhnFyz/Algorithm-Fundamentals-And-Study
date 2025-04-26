@@ -9,26 +9,35 @@
 using namespace std;
 
 vector<int> numbers = {1, 2, 3, 4};
-for (int index = 0; index < static_cast<int>(numbers.size()); ++index) {
+
+for (int index = 0; index < static_cast<int>(numbers.size()); ++index) 
+{
     cout << numbers[index] << ' ';
 }
+
 // Output: 1 2 3 4
 ```
 
 ### Range-based Loop
 ```cpp
-for (int value : numbers) {
+for (int value : numbers) 
+{
     cout << value << ' ';
 }
+
 // Output: 1 2 3 4
 ```
 
 ### Safe Access with Bounds Checking
 ```cpp
 int targetIndex = 2;
-if (targetIndex >= 0 && targetIndex < static_cast<int>(numbers.size())) {
+
+if (targetIndex >= 0 && targetIndex < static_cast<int>(numbers.size())) 
+{
     cout << numbers[targetIndex];
-} else {
+} 
+else
+{
     // handle out-of-bounds case
 }
 ```
@@ -57,7 +66,9 @@ reverse(numbers.begin(), numbers.end());
 ```cpp
 int leftPointer = 0;
 int rightPointer = static_cast<int>(numbers.size()) - 1;
-while (leftPointer < rightPointer) {
+
+while (leftPointer < rightPointer) 
+{
     swap(numbers[leftPointer++], numbers[rightPointer--]);
 }
 ```
@@ -68,11 +79,11 @@ while (leftPointer < rightPointer) {
 
 ## 3. Common Pitfalls
 
-| Scenario                   | Issue                                    | Recommended Fix                         |
-|----------------------------|------------------------------------------|-----------------------------------------|
-| Empty array                | Accessing `numbers[0]` is invalid        | Check `numbers.empty()` before access   |
-| Off-by-one in loops        | Skipping last element or buffer overrun  | Use `< size()` not `<= size()`          |
-| Unsigned index underflow   | Negative index wraps around              | Use signed `int` for indices or validate |
+| Scenario                             | Issue                                   | Recommended Fix                            |
+|--------------------------------------|-----------------------------------------|--------------------------------------------|
+| Empty array                          | Accessing `numbers[0]` is invalid       | Check `numbers.empty()` before access      |
+| Off-by-one in loops                  | Skipping last element or buffer overrun | Use `< size()` not `<= size()`             |
+| Unsigned index underflow             | Negative index wraps around             | Use signed `int` for indices or validate   |
 | Modifying container during iteration | Invalidates iterators or skips elements | Use indexed loops or stable iterator logic |
 
 ---
