@@ -237,7 +237,7 @@ Sort by 100’s digit:
 - Time Complexity: O(d × (n + k)) where d = number of digits.
 
 ### 📜 Full Timeline
-```cpp
+```.md
 Original array: [170, 45, 75, 90, 802, 24, 2, 66]
 
 → After 1's place sort: [170, 90, 802, 2, 24, 45, 75, 66]
