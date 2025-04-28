@@ -46,6 +46,10 @@ add_executable(HeapSort										searching_sorting/comparison_based_sorting/heap
 add_executable(CountingSort									searching_sorting/counting_based_sorting/counting_sort.cpp)
 add_executable(RadixSort									searching_sorting/counting_based_sorting/radix_sort.cpp)
 
+add_executable(PreorderTravelsal							trees/travelsals/preorder_travelsal.cpp)
+add_executable(InorderTravelsal								trees/travelsals/inorder_travelsal.cpp)
+add_executable(PostorderTravelsal							trees/travelsals/postorder_travelsal.cpp)
+
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
 	set(CMAKE_CXX_STANDARD 20)

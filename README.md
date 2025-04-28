@@ -80,58 +80,71 @@ Each folder corresponds to a major topic. Start with the ones most relevant to y
      - [X] [Counting Sort](searching_sorting/counting_based_sorting/counting_sort.cpp)
      - [X] [Radix Sort](searching_sorting/counting_based_sorting/radix_sort.cpp)
 
-### 3. **Linked Lists, Stacks & Queues**
+  ### 3. [**📁 Trees**](trees_graphs)
+   - [X] [**📁 Tree Traversals**](trees/travelsals)
+     -  [X] [Pre-order Traversal (DFS)](trees/traversals/preorder_traversal.cpp)
+     -  [X] [In-order Traversal (DFS)](trees/traversals/inorder_traversal.cpp)
+     -  [X] [Post-order Traversal (DFS)](trees/traversals/postorder_traversal.cpp)
+     -  [X] [Level-order Traversal (BFS)](trees/traversals/level_order_traversal.cpp)
+   - [X] [**📁 Binary Search Trees (BST)**](trees/binary_search_tree)
+     - [X] [Search in BST](trees/binary_search_tree/search_in_bst.cpp)
+     - [X] [Insert into BST](trees/binary_search_tree/insert_into_bst.cpp)
+     - [X] [Delete from BST](trees/binary_search_tree/delete_from_bst.cpp)
+   - [X] [**📁 Tree Properties**](trees/tree_properties)
+     - [X] [Height/Depth of Tree](trees/tree_properties/height_of_tree.cpp)
+     - [X] [Diameter of Tree](trees/tree_properties/diameter_of_tree.cpp)
+     - [X] [Balanced Tree Check](trees/tree_properties/check_balanced_tree.cpp)
+   - [X] [**📁 Advanced Tree Problems**](trees/advanced_trees)
+     - [X] [Lowest Common Ancestor (LCA)](trees/advanced_trees/lowest_common_ancestor.cpp)
+     - [X] [Serialize and Deserialize Tree](trees/advanced_trees/serialize_deserialize_tree.cpp)
+     - [X] [Binary Tree Maximum Path Sum](trees/advanced_trees/binary_tree_max_path_sum.cpp)
+
+### 4. [**📁 Graphs**](graphs)
+   - [X] [**📁 Representations**](graphs/representations/)
+   - [X] [**📁 Graph Traversals**](graphs/graph_traversals)
+   - [X] [**📁 Topological Sort**](graphs/topological_sort)
+   - [X] [**📁 Shortest Paths**](graphs/shortest_paths)
+   - [X] [**📁 Minimum Spanning Tree**](graphs/minimum_spanning_tree)
+   - [X] [**📁 Union Find**](graphs/union_find)
+       
+### 5. **Linked Lists, Stacks & Queues**
    - [ ] Linked-List Manipulations (reverse list, detect/remove cycle via Floyd’s algorithm)
    - [ ] Monotonic Stack/Queue (next greater element, sliding-window min/max)
    - [ ] Classic Queue Problems (e.g., BFS traversal)
-
-### 4. **Trees & Graphs**
-   - [ ] Tree Traversals (pre/in/post-order, level-order)
-   - [ ] DFS & BFS (path existence, connected components)
-   - [ ] Lowest Common Ancestor (binary lifting, parent-pointer + depth)
-   - [ ] Topological Sort (DAG ordering)
-   - [ ] Shortest Paths
-      - [ ] Dijkstra’s (non-negative weights)
-      - [ ] Bellman-Ford (handles negative edges)
-      - [ ] Floyd-Warshall (all-pairs)
-   - [ ] Minimum Spanning Tree
-      - [ ] Kruskal’s + Union-Find
-      - [ ] Prim’s (priority-queue)
-   - [ ] Union-Find (cycle detection, grouping)
-
-### 5. **Dynamic Programming**
+   
+### 6. **Dynamic Programming**
    - [ ] 1D DP (Fibonacci, climbing stairs, coin-change)
    - [ ] 2D DP (knapsack, longest common subsequence, edit distance)
    - [ ] DP on Sequences (LIS, LCS)
    - [ ] DP on Trees (tree-DP, e.g., "binary tree robbery")
    - [ ] Bitmask DP (Traveling Salesman for small N)
 
-### 6. **Greedy Algorithms**
+### 7. **Greedy Algorithms**
    - [ ] Interval Scheduling / Meeting Rooms
    - [ ] Activity Selection
    - [ ] Fractional Knapsack
    - [ ] Huffman Coding (optimal prefix codes)
 
-### 7. **Hashing & Math**
+### 8. **Hashing & Math**
    - [ ] Hash Tables (frequency counts, two-sum)
    - [ ] Rolling Hash / Rabin-Karp (substring search)
    - [ ] Number Theory (GCD, Sieve of Eratosthenes, modular exponentiation)
 
-### 8. **Advanced Data Structures**
+### 9. **Advanced Data Structures**
    - [ ] Trie (prefix matching, autocomplete)
    - [ ] Segment Tree / Fenwick Tree (range queries & updates)
    - [ ] Heap / Priority Queue (k-smallest/largest, merging sorted streams)
 
-### 9. **Backtracking & Recursion**
+### 10. **Backtracking & Recursion**
    - [ ] Permutations & Combinations
    - [ ] Subset-Sum / Partition
    - [ ] N-Queens, Sudoku Solver-style constraints
 
-### 10. **Bit Manipulation**
+### 11. **Bit Manipulation**
    - [ ] Basic Ops (&, |, ^, \~, shifts)
    - [ ] Common Tricks (popcount, swap w/o temp, power-of-two checks)
 
-### 11. **Game-Dev / Pathfinding (Bonus)**
+### 12. **Game-Dev / Pathfinding (Bonus)**
    - [ ] A\* Search (heuristic-guided shortest path)
    - [ ] Minimax / Alpha-Beta Pruning (two-player game trees)
 

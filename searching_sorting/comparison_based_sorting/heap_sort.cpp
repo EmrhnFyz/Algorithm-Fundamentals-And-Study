@@ -25,6 +25,8 @@
 
 #include <iostream>
 #include <vector>
+#include <utility>
+#include <__msvc_ostream.hpp>
 using namespace std;
 
 // Helper function to maintain max-heap property
