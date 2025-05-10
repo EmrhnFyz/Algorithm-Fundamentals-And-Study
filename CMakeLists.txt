@@ -35,7 +35,7 @@ add_executable(SubarraySumEqualsK							arrays_strings/prefix_sum/subarray_sum_e
 
 add_executable(MaximumSubarraySum							arrays_strings/kadane_algorithm/maximum_subarray_sum.cpp)
 
-add_executable(StandardBinarySearch							searching_sorting/binary_search/standard_binary_search.cpp)qqqqqqqqqqqqqqqqqqqqqqqqqqq
+add_executable(StandardBinarySearch							searching_sorting/binary_search/standard_binary_search.cpp)
 add_executable(SearchInRotatedSortedArray					searching_sorting/binary_search/search_in_rotated_sorted_array.cpp)
 add_executable(BinarySearchOnAnswerSpace					searching_sorting/binary_search/binary_search_on_answer_space.cpp)
 
@@ -51,6 +51,9 @@ add_executable(InorderTraversal								trees/traversals/inorder_traversal.cpp)
 add_executable(PostorderTraversal							trees/traversals/postorder_traversal.cpp)
 add_executable(LevelOrderTraversal							trees/traversals/level_order_traversal.cpp)
 
+add_executable(StandardBST								trees/binary_search_tree/search_in_bst.cpp)
+add_executable(InsertIntoBST							trees/binary_search_tree/insert_into_bst.cpp)
+add_executable(DeleteFromBST							trees/binary_search_tree/delete_from_bst.cpp)
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
 	set(CMAKE_CXX_STANDARD 20)

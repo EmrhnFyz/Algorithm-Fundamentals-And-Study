@@ -29,6 +29,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <__msvc_ostream.hpp>
 using namespace std;
 
 // Binary tree node definition
@@ -94,7 +95,7 @@ int main()
 	TreeNode* root = BuildSampleTree();
 
 	vector<int> result;
-	levelOrder(root, result);
+	LevelOrder(root, result);
 
 	cout << "Level-order traversal: ";
 	for (int val : result)
