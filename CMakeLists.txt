@@ -31,8 +31,6 @@ add_executable(MinSubarrayLengthGreaterOrEqualThanTarget	arrays_strings/sliding_
 
 add_executable(RangeSumQueryImmutable						arrays_strings/prefix_sum/range_sum_query_immutable.cpp)
 add_executable(SubarraySumEqualsK							arrays_strings/prefix_sum/subarray_sum_equals_k.cpp)
-
-
 add_executable(MaximumSubarraySum							arrays_strings/kadane_algorithm/maximum_subarray_sum.cpp)
 
 add_executable(StandardBinarySearch							searching_sorting/binary_search/standard_binary_search.cpp)
@@ -51,9 +49,13 @@ add_executable(InorderTraversal								trees/traversals/inorder_traversal.cpp)
 add_executable(PostorderTraversal							trees/traversals/postorder_traversal.cpp)
 add_executable(LevelOrderTraversal							trees/traversals/level_order_traversal.cpp)
 
-add_executable(StandardBST								trees/binary_search_tree/search_in_bst.cpp)
-add_executable(InsertIntoBST							trees/binary_search_tree/insert_into_bst.cpp)
-add_executable(DeleteFromBST							trees/binary_search_tree/delete_from_bst.cpp)
+add_executable(StandardBST									trees/binary_search_tree/search_in_bst.cpp)
+add_executable(InsertIntoBST								trees/binary_search_tree/insert_into_bst.cpp)
+add_executable(DeleteFromBST								trees/binary_search_tree/delete_from_bst.cpp)
+
+add_executable(HeightOfTree									trees/tree_properties/height_of_tree.cpp)
+add_executable(DiameterOfTree								trees/tree_properties/diameter_of_tree.cpp)
+add_executable(CheckBalancedTree							trees/tree_properties/check_balanced_tree.cpp)
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
 	set(CMAKE_CXX_STANDARD 20)

@@ -59,10 +59,12 @@ Trees are naturally recursive: solving a problem on a node often involves solvin
     - [Search in BST](binary_search_tree/search_in_bst.cpp)
     - [Insert into BST](binary_search_tree/insert_into_bst.cpp)
     - [Delete from BST](binary_search_tree/delete_from_bst.cpp)
+    - [Binary Search Tree Walkthrough](binary_search_tree/README.md)]
 3. [**📁 Tree Properties**](tree_properties)
     - [Height/Depth of Tree](tree_properties/height_of_tree.cpp)
     - [Diameter of Tree](tree_properties/diameter_of_tree.cpp)
     - [Balanced Tree Check](tree_properties/check_balanced_tree.cpp)
+    - [Tree Property Explanations](tree_properties/README.md)]
 4. [**📁 Advanced Tree Problems**](advanced_trees)
     - [Lowest Common Ancestor (LCA)](advanced_trees/lowest_common_ancestor.cpp)
     - [Serialize and Deserialize Tree](advanced_trees/serialize_deserialize_tree.cpp)
