@@ -54,6 +54,7 @@ Trees are naturally recursive: solving a problem on a node often involves solvin
     - [In-order Traversal (DFS)](traversals/inorder_traversal.cpp)
     - [Post-order Traversal (DFS)](traversals/postorder_traversal.cpp)
     - [Level-order Traversal (BFS)](traversals/level_order_traversal.cpp)
+    - [Traversal Algorithms Walkthrough](traversals/README.md)
 2. [**📁 Binary Search Trees (BST)**](binary_search_tree)
     - [Search in BST](binary_search_tree/search_in_bst.cpp)
     - [Insert into BST](binary_search_tree/insert_into_bst.cpp)
