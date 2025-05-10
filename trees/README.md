@@ -76,5 +76,3 @@ Trees are naturally recursive: solving a problem on a node often involves solvin
 - Binary Search Trees enable **O(log n)** average search, insertion, and deletion.
 - Tree depth, balance, and paths are critical properties in optimization.
 - Mastering trees unlocks skills in graph theory, dynamic programming on trees, and system design.
-
-Trees are foundational in both academic algorithms and real-world systems — **understanding trees unlocks deep algorithmic intuition**.

@@ -100,9 +100,12 @@ Each folder corresponds to a major topic. Start with the ones most relevant to y
      - [X] [Binary Tree Maximum Path Sum](trees/advanced_trees/binary_tree_max_path_sum.cpp)
 
 ### 4. [**📁 Graphs**](graphs)
-   - [X] [**📁 Representations**](graphs/representations/)
    - [X] [**📁 Graph Traversals**](graphs/graph_traversals)
+     - [X] [Depth-First Search(DFS)](graphs/graph_traversals/dfs_graph.cpp)
+     - [X] [Breadth-First Search(BFS)](graphs/graph_traversals/dfs_graph.cpp)
+     - [X] [Connected Components (Undirected Graph)](graphs/graph_traversals/connected_components.cpp)
    - [X] [**📁 Topological Sort**](graphs/topological_sort)
+     - [X] [Kahn's Algorithm](graphs/topological_sort/kahn_toposort.cpp) 
    - [X] [**📁 Shortest Paths**](graphs/shortest_paths)
    - [X] [**📁 Minimum Spanning Tree**](graphs/minimum_spanning_tree)
    - [X] [**📁 Union Find**](graphs/union_find)

@@ -61,6 +61,13 @@ add_executable(LowestCommonAncestor							trees/advanced_trees/lowest_common_anc
 add_executable(SerializeDeserializeTree						trees/advanced_trees/serialize_deserialize_tree.cpp)
 add_executable(TreeMaxPathSum								trees/advanced_trees/binary_tree_max_path_sum.cpp)
 
+add_executable(DFSGraph										graphs/graph_traversals/dfs_graph.cpp)
+add_executable(BFSGraph										graphs/graph_traversals/bfs_graph.cpp)
+add_executable(ConnectedComponents							graphs/graph_traversals/connected_components.cpp)
+
+add_executable(KahnsAlgorithm								graphs/topological_sort/kahn_toposort.cpp)
+add_executable(DFSBasedTopologicalSort						graphs/topological_sort/dfs_toposort.cpp)
+
 if (CMAKE_VERSION VERSION_GREATER 3.12)
 	set(CMAKE_CXX_STANDARD 20)
 	set(CMAKE_CXX_STANDARD_REQUIRED ON)

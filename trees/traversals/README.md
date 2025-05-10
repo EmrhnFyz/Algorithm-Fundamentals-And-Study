@@ -82,5 +82,3 @@ Steps: 1 → 2 → 3 → 4 → 5
 - **Inorder traversal of a BST** gives sorted order.
 - **Level order traversal** uses a queue and is used in shortest path and multi-level problems.
 - Most tree problems can be reduced to one of these four traversal patterns.
-
-Understanding traversal is the first step to mastering tree problems — from search, depth, symmetry, to dynamic programming on trees.

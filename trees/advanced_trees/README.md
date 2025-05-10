@@ -41,11 +41,4 @@ They often appear in high-level interviews and system-level applications like:
 
 - These problems require **careful thinking about recursion boundaries**.
 - Many advanced questions mix **traversals + memoization** or **global tracking**.
-- Mastering these unlocks more complex topics like:
-  - Tree DP (e.g., rob-the-house-in-a-tree)
-  - Tree flattening
-  - Kth ancestor or binary lifting
-
-If you can comfortably solve these problems, you’re well-prepared for most tree-based coding interviews at any level.
-
 ---
