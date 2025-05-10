@@ -57,6 +57,10 @@ add_executable(HeightOfTree									trees/tree_properties/height_of_tree.cpp)
 add_executable(DiameterOfTree								trees/tree_properties/diameter_of_tree.cpp)
 add_executable(CheckBalancedTree							trees/tree_properties/check_balanced_tree.cpp)
 
+add_executable(LowestCommonAncestor							trees/advanced_trees/lowest_common_ancestor.cpp)
+add_executable(SerializeDeserializeTree						trees/advanced_trees/serialize_deserialize_tree.cpp)
+add_executable(TreeMaxPathSum								trees/advanced_trees/binary_tree_max_path_sum.cpp)
+
 if (CMAKE_VERSION VERSION_GREATER 3.12)
 	set(CMAKE_CXX_STANDARD 20)
 	set(CMAKE_CXX_STANDARD_REQUIRED ON)
