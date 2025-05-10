@@ -10,13 +10,13 @@ There are two major categories:
 ## 🌳 Example Tree
 
 We’ll use this tree for all examples:
-
+```
     1
    / \
   2   3
  / \
 4   5
-
+```
 
 ---
 
