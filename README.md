@@ -81,7 +81,7 @@ Each folder corresponds to a major topic. Start with the ones most relevant to y
      - [X] [Radix Sort](searching_sorting/counting_based_sorting/radix_sort.cpp)
 
   ### 3. [**📁 Trees**](trees_graphs)
-   - [X] [**📁 Tree Traversals**](trees/travelsals)
+   - [X] [**📁 Tree Traversals**](trees/traversals)
      -  [X] [Pre-order Traversal (DFS)](trees/traversals/preorder_traversal.cpp)
      -  [X] [In-order Traversal (DFS)](trees/traversals/inorder_traversal.cpp)
      -  [X] [Post-order Traversal (DFS)](trees/traversals/postorder_traversal.cpp)

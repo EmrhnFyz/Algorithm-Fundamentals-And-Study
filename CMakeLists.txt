@@ -35,7 +35,7 @@ add_executable(SubarraySumEqualsK							arrays_strings/prefix_sum/subarray_sum_e
 
 add_executable(MaximumSubarraySum							arrays_strings/kadane_algorithm/maximum_subarray_sum.cpp)
 
-add_executable(StandardBinarySearch							searching_sorting/binary_search/standard_binary_search.cpp)
+add_executable(StandardBinarySearch							searching_sorting/binary_search/standard_binary_search.cpp)qqqqqqqqqqqqqqqqqqqqqqqqqqq
 add_executable(SearchInRotatedSortedArray					searching_sorting/binary_search/search_in_rotated_sorted_array.cpp)
 add_executable(BinarySearchOnAnswerSpace					searching_sorting/binary_search/binary_search_on_answer_space.cpp)
 
@@ -46,9 +46,10 @@ add_executable(HeapSort										searching_sorting/comparison_based_sorting/heap
 add_executable(CountingSort									searching_sorting/counting_based_sorting/counting_sort.cpp)
 add_executable(RadixSort									searching_sorting/counting_based_sorting/radix_sort.cpp)
 
-add_executable(PreorderTravelsal							trees/travelsals/preorder_travelsal.cpp)
-add_executable(InorderTravelsal								trees/travelsals/inorder_travelsal.cpp)
-add_executable(PostorderTravelsal							trees/travelsals/postorder_travelsal.cpp)
+add_executable(PreorderTraversal							trees/traversals/preorder_traversal.cpp)
+add_executable(InorderTraversal								trees/traversals/inorder_traversal.cpp)
+add_executable(PostorderTraversal							trees/traversals/postorder_traversal.cpp)
+add_executable(LevelOrderTraversal							trees/traversals/level_order_traversal.cpp)
 
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
