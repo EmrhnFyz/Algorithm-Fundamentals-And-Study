@@ -22,8 +22,8 @@ Both traverse all reachable nodes, but in different orders:
 
 | Problem                               | Description                                               | Link                                                 |
 |---------------------------------------|-----------------------------------------------------------|------------------------------------------------------|
-| **Breadth-First Search (BFS)**        | Visit all nodes starting from source, layer by layer      | [bfs.cpp](bfs.cpp)                                   |
-| **Depth-First Search (DFS)**          | Recursively visit as deep as possible before backtracking | [dfs.cpp](dfs.cpp)                                   |
+| **Breadth-First Search (BFS)**        | Visit all nodes starting from source, layer by layer      | [bfs_graph.cpp](bfs_graph.cpp)                       |
+| **Depth-First Search (DFS)**          | Recursively visit as deep as possible before backtracking | [dfs_graph.cpp](dfs_graph.cpp)                       |
 | **Connected Components (Undirected)** | Count and label distinct groups in an undirected graph    | [connected_components.cpp](connected_components.cpp) |
 
 ---
