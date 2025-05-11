@@ -68,7 +68,20 @@ add_executable(ConnectedComponents							graphs/graph_traversals/connected_compo
 add_executable(KahnsAlgorithm								graphs/topological_sort/kahn_toposort.cpp)
 add_executable(DFSBasedTopologicalSort						graphs/topological_sort/dfs_toposort.cpp)
 
-if (CMAKE_VERSION VERSION_GREATER 3.12)
-	set(CMAKE_CXX_STANDARD 20)
-	set(CMAKE_CXX_STANDARD_REQUIRED ON)
-endif()
+
+add_executable(Dijkstra										graphs/shortest_paths/dijkstra.cpp)
+add_executable(BellmanFord									graphs/shortest_paths/bellman_ford.cpp)
+add_executable(FloydWarshall								graphs/shortest_paths/floyd_warshall.cpp)
+
+add_executable(Kruskal										graphs/minimum_spanning_tree/kruskal.cpp)
+add_executable(PrimAlgorithm								graphs/minimum_spanning_tree/prim.cpp)
+
+
+add_executable(CycleDetection								graphs/union_find/cycle_detection.cpp)
+add_executable(UnionFind									graphs/union_find/union_find.cpp)
+add_executable(UnionByRank									graphs/union_find/union_by_rank.cpp)
+add_executable(PathCompression								graphs/union_find/path_compression.cpp)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)

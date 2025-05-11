@@ -7,14 +7,14 @@
 	----------------------------------------------------
 	Idea:
 	- Traverse down the tree:
-		- If value < current → go left
-		- If value > current → go right
+		- If value < current -> go left
+		- If value > current -> go right
 	- When you reach a null position, insert the new node there.
 	- Duplicate values are typically not inserted in a classic BST.
 
 	Learning Highlights:
 	- Time Complexity: O(h) where h = height of the tree
-		→ O(log n) for balanced, O(n) for skewed
+		-> O(log n) for balanced, O(n) for skewed
 	- Space Complexity: O(h) recursive stack
 	----------------------------------------------------
 */

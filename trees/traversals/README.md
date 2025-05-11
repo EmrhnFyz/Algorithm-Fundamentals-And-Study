@@ -24,9 +24,9 @@ We’ll use this tree for all examples:
 
 | Traversal Type | Visit Order               | Output                |
 |----------------|---------------------------|------------------------|
-| **Preorder**    | Root → Left → Right       | `1 2 4 5 3`            |
-| **Inorder**     | Left → Root → Right       | `4 2 5 1 3`            |
-| **Postorder**   | Left → Right → Root       | `4 5 2 3 1`            |
+| **Preorder**    | Root -> Left -> Right       | `1 2 4 5 3`            |
+| **Inorder**     | Left -> Root -> Right       | `4 2 5 1 3`            |
+| **Postorder**   | Left -> Right -> Root       | `4 5 2 3 1`            |
 | **Level Order** | Top to bottom, left to right (BFS) | `1 2 3 4 5`    |
 
 ---
@@ -36,9 +36,9 @@ We’ll use this tree for all examples:
 - Traverse left subtree
 - Traverse right subtree
 
-- Steps: 1 → 2 → 4 → 5 → 3
+- Steps: 1 -> 2 -> 4 -> 5 -> 3
 
-📎 [Code → preorder_traversal.cpp](preorder_traversal.cpp)
+📎 [Code -> preorder_traversal.cpp](preorder_traversal.cpp)
 
 ---
 
@@ -47,10 +47,10 @@ We’ll use this tree for all examples:
 - Visit current node
 - Traverse right subtree
 
-Steps: 4 → 2 → 5 → 1 → 3
+Steps: 4 -> 2 -> 5 -> 1 -> 3
 
 
-📎 [Code → inorder_traversal.cpp](inorder_traversal.cpp)
+📎 [Code -> inorder_traversal.cpp](inorder_traversal.cpp)
 
 ---
 
@@ -59,10 +59,10 @@ Steps: 4 → 2 → 5 → 1 → 3
 - Traverse right subtree
 - Visit current node
 
-Steps: 4 → 5 → 2 → 3 → 1
+Steps: 4 -> 5 -> 2 -> 3 -> 1
 
 
-📎 [Code → postorder_traversal.cpp](postorder_traversal.cpp)
+📎 [Code -> postorder_traversal.cpp](postorder_traversal.cpp)
 
 ---
 
@@ -70,10 +70,10 @@ Steps: 4 → 5 → 2 → 3 → 1
 - Visit nodes level by level, left to right
 - Use a queue (FIFO structure)
 
-Steps: 1 → 2 → 3 → 4 → 5
+Steps: 1 -> 2 -> 3 -> 4 -> 5
 
 
-📎 [Code → level_order_traversal.cpp](level_order_traversal.cpp)
+📎 [Code -> level_order_traversal.cpp](level_order_traversal.cpp)
 
 ---
 

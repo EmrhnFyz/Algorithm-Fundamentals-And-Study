@@ -78,28 +78,28 @@ At the deepest level, all subarrays are size 1 (which are trivially sorted):
 
 ### 2️⃣ Merging (Conquer and Combine)
 Now start merging sorted pieces upward.
-- Merge `[2]` and `[9]` → sorted `[2, 9]`
-- Merge `[5]` and `[2, 9]` → merge step:
+- Merge `[2]` and `[9]` -> sorted `[2, 9]`
+- Merge `[5]` and `[2, 9]` -> merge step:
 
 Compare elements:
 ```cpp
-5 vs 2 → 2 goes first
-5 vs 9 → 5 goes next
-9 remains → 9 goes last
+5 vs 2 -> 2 goes first
+5 vs 9 -> 5 goes next
+9 remains -> 9 goes last
 ```
 Result:
 ```cpp
 [2, 5, 9]
 ```
 
-- Merge `[5]` and `[6]` → sorted `[5, 6]`
-- Merge `[1]` and `[5, 6]` → merge step:
+- Merge `[5]` and `[6]` -> sorted `[5, 6]`
+- Merge `[1]` and `[5, 6]` -> merge step:
 
 Compare elements:
 ```cpp
-1 vs 5 → 1 goes first
-5 vs 6 → 5 goes next
-6 remains → 6 goes last
+1 vs 5 -> 1 goes first
+5 vs 6 -> 5 goes next
+6 remains -> 6 goes last
 ```
 Result:
 ```cpp
@@ -111,12 +111,12 @@ Merge `[2, 5, 9]` and `[1, 5, 6]`:
 
 Compare elements:
 ```cpp
-2 vs 1 → 1 goes first
-2 vs 5 → 2 goes next
-5 vs 5 → 5 (from left) goes next (preserve stability)
-9 vs 5 → 5 (from right) goes next
-9 vs 6 → 6 goes next
-9 remains → 9 goes last
+2 vs 1 -> 1 goes first
+2 vs 5 -> 2 goes next
+5 vs 5 -> 5 (from left) goes next (preserve stability)
+9 vs 5 -> 5 (from right) goes next
+9 vs 6 -> 6 goes next
+9 remains -> 9 goes last
 ```
 
 Final sorted array:
@@ -138,11 +138,11 @@ Split further:
 [5], [2], [9], [1], [5], [6]
 
 Start merging:
-[2, 9], [5]  → [2, 5, 9]
-[5, 6], [1]  → [1, 5, 6]
+[2, 9], [5]  -> [2, 5, 9]
+[5, 6], [1]  -> [1, 5, 6]
 
 Merge final:
-[2, 5, 9] and [1, 5, 6] → [1, 2, 5, 5, 6, 9]
+[2, 5, 9] and [1, 5, 6] -> [1, 2, 5, 5, 6, 9]
 ```
 
 ### Key Takeaways
@@ -187,11 +187,11 @@ Start comparing from left to right:
 
 | i (smaller area index) | j (current checking) | nums[j] | Action                                                             |
 |------------------------|----------------------|---------|--------------------------------------------------------------------|
-| -1                     | 5                    | 5       | 5 ≤ 6 → increment i (0) and swap nums[i], nums[j] (no real change) |
-| 0                      | 2                    | 2       | 2 ≤ 6 → increment i (1) and swap nums[i], nums[j]                  |
-| 1                      | 9                    | 9       | 9 > 6 → do nothing                                                 |
-| 1                      | 1                    | 1       | 1 ≤ 6 → increment i (2) and swap nums[i], nums[j]                  |
-| 2                      | 5                    | 5       | 5 ≤ 6 → increment i (3) and swap nums[i], nums[j]                  |
+| -1                     | 5                    | 5       | 5 ≤ 6 -> increment i (0) and swap nums[i], nums[j] (no real change) |
+| 0                      | 2                    | 2       | 2 ≤ 6 -> increment i (1) and swap nums[i], nums[j]                  |
+| 1                      | 9                    | 9       | 9 > 6 -> do nothing                                                 |
+| 1                      | 1                    | 1       | 1 ≤ 6 -> increment i (2) and swap nums[i], nums[j]                  |
+| 2                      | 5                    | 5       | 5 ≤ 6 -> increment i (3) and swap nums[i], nums[j]                  |
 
 Result after partition (before placing pivot):
 
@@ -213,7 +213,7 @@ Left: [5, 2, 1, 5] (elements ≤ 6)
 Right: [9] (elements > 6)
 
 ### 3️⃣ Recursive Sort Left Half [5, 2, 1, 5]
-Pivot = last element → 5
+Pivot = last element -> 5
 
 Partition [5, 2, 1] around pivot 5:
 
@@ -221,9 +221,9 @@ Partition steps:
 
 | i  | j | nums[j] | Action                               |
 |----|---|---------|--------------------------------------|
-| -1 | 5 | 5       | 5 ≤ 5 → i = 0, swap (no real change) |
-| 0  | 2 | 2       | 2 ≤ 5 → i = 1, swap                  |
-| 1  | 1 | 1       | 1 ≤ 5 → i = 2, swap                  |
+| -1 | 5 | 5       | 5 ≤ 5 -> i = 0, swap (no real change) |
+| 0  | 2 | 2       | 2 ≤ 5 -> i = 1, swap                  |
+| 1  | 1 | 1       | 1 ≤ 5 -> i = 2, swap                  |
 
 Result:
 ```cpp
@@ -250,8 +250,8 @@ Partition:
 
 | i  | j | nums[j] | Action          |
 |----|---|---------|-----------------|
-| -1 | 5 | 5       | 5 > 1 → no move |
-| -1 | 2 | 2       | 2 > 1 → no move |
+| -1 | 5 | 5       | 5 > 1 -> no move |
+| -1 | 2 | 2       | 2 > 1 -> no move |
 
 No smaller elements.
 Swap pivot 1 with nums[i+1] = nums[0]:
@@ -471,13 +471,13 @@ Only one element left — array is now sorted.
 
 ### 📜 Full Timeline (Shortened)
 ```cpp
-Build Max Heap → [9, 5, 5, 1, 2, 6]
+Build Max Heap -> [9, 5, 5, 1, 2, 6]
 
-Extract 9 → [6, 5, 5, 1, 2, 9]
-Extract 6 → [2, 5, 5, 1, 6, 9]
-Extract 5 → [1, 2, 5, 5, 6, 9]
-Extract 5 → [2, 1, 5, 5, 6, 9]
-Extract 2 → [1, 2, 5, 5, 6, 9]
+Extract 9 -> [6, 5, 5, 1, 2, 9]
+Extract 6 -> [2, 5, 5, 1, 6, 9]
+Extract 5 -> [1, 2, 5, 5, 6, 9]
+Extract 5 -> [2, 1, 5, 5, 6, 9]
+Extract 2 -> [1, 2, 5, 5, 6, 9]
 
 Sorted: [1, 2, 5, 5, 6, 9]
 ```

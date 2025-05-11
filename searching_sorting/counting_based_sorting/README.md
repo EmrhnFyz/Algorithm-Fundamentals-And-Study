@@ -149,7 +149,7 @@ Maximum value:
 ```cpp
 802
 ```
-- It has 3 digits → we need to sort units, tens, and hundreds places.
+- It has 3 digits -> we need to sort units, tens, and hundreds places.
 
 ### 2️⃣ Step 2: Sort by Each Digit Place
 We sort numbers digit by digit, starting from the 1’s place, then 10’s place, then 100’s place.
@@ -240,9 +240,9 @@ Sort by 100’s digit:
 ```.md
 Original array: [170, 45, 75, 90, 802, 24, 2, 66]
 
-→ After 1's place sort: [170, 90, 802, 2, 24, 45, 75, 66]
-→ After 10's place sort: [802, 2, 24, 45, 66, 170, 75, 90]
-→ After 100's place sort: [2, 24, 45, 66, 75, 90, 170, 802]
+-> After 1's place sort: [170, 90, 802, 2, 24, 45, 75, 66]
+-> After 10's place sort: [802, 2, 24, 45, 66, 170, 75, 90]
+-> After 100's place sort: [2, 24, 45, 66, 75, 90, 170, 802]
 
 Final sorted array: [2, 24, 45, 66, 75, 90, 170, 802]
 ```

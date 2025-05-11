@@ -46,7 +46,7 @@ int main()
 		|   |
 		2 — 3
 
-		DFS from 0 → possible output: 0 1 3 2
+		DFS from 0 -> possible output: 0 1 3 2
 	*/
 	graph[0] = { 1, 2 };
 	graph[1] = { 0, 3 };

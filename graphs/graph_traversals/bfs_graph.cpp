@@ -59,7 +59,7 @@ int main()
 		|   |
 		2 — 3
 
-		BFS from 0 → 0 1 2 3 (order may vary by adjacency list)
+		BFS from 0 -> 0 1 2 3 (order may vary by adjacency list)
 	*/
 	graph[0] = { 1, 2 };
 	graph[1] = { 0, 3 };

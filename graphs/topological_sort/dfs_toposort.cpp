@@ -1,4 +1,25 @@
-﻿#include <iostream>
+﻿/*
+	Problem: Topological Sort (DFS-based)
+
+	Given a directed acyclic graph (DAG), return a topological ordering of its nodes.
+	A topological order is a linear sequence where for every directed edge u -> v,
+	node u comes before v in the order.
+
+	----------------------------------------------------
+	Idea:
+	- Perform DFS for each unvisited node.
+	- After visiting all descendants of a node, add it to a stack.
+	- Once all nodes are processed, pop the stack to get the topological order.
+
+	Learning Highlights:
+	- Time Complexity: O(V + E)
+	- Space Complexity: O(V)
+	- Uses post-order DFS
+	- Works only for DAGs (must check separately for cycles if needed)
+	----------------------------------------------------
+*/
+
+#include <iostream>
 #include <vector>
 #include <stack>
 
@@ -6,55 +27,61 @@ using namespace std;
 
 class Graph
 {
-	int V; // Number of vertices
-	vector<vector<int>> adj;
+	int nodeCount;
+	vector<vector<int>> adjacencyList;
 
-	void DFS(int v, vector<bool>& visited, stack<int>& Stack)
+	// Helper DFS function to recursively visit nodes
+	void DepthFirstSearch(int node, vector<bool>& visited, stack<int>& resultStack)
 	{
-		visited[v] = true;
+		visited[node] = true; // Mark current node as visited
 
-		for (int neighbor : adj[v])
+		// Explore all neighbors (outgoing edges) of this node
+		for (int neighbor : adjacencyList[node])
 		{
 			if (!visited[neighbor])
 			{
-				DFS(neighbor, visited, Stack);
+				DepthFirstSearch(neighbor, visited, resultStack);
 			}
 		}
 
-		// Push current vertex to stack after visiting all its neighbors
-		Stack.push(v);
+		// After all neighbors are visited, push this node onto the stack.
+		// This ensures that nodes with dependencies are pushed later and popped earlier.
+		resultStack.push(node);
 	}
 
 public:
-	Graph(int V)
+	Graph(int nodeCount)
 	{
-		this->V = V;
-		adj.resize(V);
+		this->nodeCount = nodeCount;
+		adjacencyList.resize(nodeCount);
 	}
 
-	void AddEdge(int u, int v)
+	// Add a directed edge from 'from' to 'to'
+	void AddEdge(int from, int to)
 	{
-		adj[u].push_back(v); // Directed edge from u to v
+		adjacencyList[from].push_back(to);
 	}
 
-	void TopologicalSort()
+	void PerformTopologicalSort()
 	{
-		vector<bool> visited(V, false);
-		stack<int> Stack;
+		vector<bool> visited(nodeCount, false); // Track visited nodes
+		stack<int> resultStack; // Store the result in reverse order
 
-		for (int i = 0; i < V; ++i)
+		// Perform DFS from every unvisited node (handles disconnected components)
+		for (int node = 0; node < nodeCount; ++node)
 		{
-			if (!visited[i])
+			if (!visited[node])
 			{
-				DFS(i, visited, Stack);
+				DepthFirstSearch(node, visited, resultStack);
 			}
 		}
 
+		// Pop all nodes from the stack to get the topological order
 		cout << "Topological Order (DFS-based): ";
-		while (!Stack.empty())
+		while (!resultStack.empty())
 		{
-			cout << Stack.top() << " ";
-			Stack.pop();
+			cout << resultStack.top() << " ";
+			resultStack.pop();
 		}
 		cout << endl;
 	}
@@ -62,16 +89,27 @@ public:
 
 int main()
 {
-	Graph g(6);
+	/*
+		DAG:
+		5 -> 2
+		5 -> 0
+		4 -> 0
+		4 -> 1
+		2 -> 3
+		3 -> 1
 
-	g.AddEdge(5, 2);
-	g.AddEdge(5, 0);
-	g.AddEdge(4, 0);
-	g.AddEdge(4, 1);
-	g.AddEdge(2, 3);
-	g.AddEdge(3, 1);
+		One valid topological order: 5 4 2 3 1 0
+	*/
 
-	g.TopologicalSort();
+	Graph graph(6);
+	graph.AddEdge(5, 2);
+	graph.AddEdge(5, 0);
+	graph.AddEdge(4, 0);
+	graph.AddEdge(4, 1);
+	graph.AddEdge(2, 3);
+	graph.AddEdge(3, 1);
+
+	graph.PerformTopologicalSort();
 
 	return 0;
 }

@@ -50,7 +50,7 @@ for (int i = 1; i < nums.size(); ++i)
 🧠 Space: O(1) — constant tracking variables
 
 ## Pitfalls
-Forgetting to handle all negative arrays (e.g., [-3, -1, -2] → answer is -1)
+Forgetting to handle all negative arrays (e.g., [-3, -1, -2] -> answer is -1)
 
 Using 0 instead of nums[0] as initialization — this breaks when all elements are negative
 

@@ -20,9 +20,9 @@
 	- Use two pointers (`left` and `right`) to represent the current search range.
 	- Find the middle index `mid`.
 	- Compare nums[mid] with the target:
-		- If equal → target found at mid.
-		- If nums[mid] < target → search right half (left = mid + 1).
-		- If nums[mid] > target → search left half (right = mid - 1).
+		- If equal -> target found at mid.
+		- If nums[mid] < target -> search right half (left = mid + 1).
+		- If nums[mid] > target -> search left half (right = mid - 1).
 	- If left crosses right, the target does not exist.
 
 	Learning Highlights:

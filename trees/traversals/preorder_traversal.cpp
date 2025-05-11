@@ -2,7 +2,7 @@
 	Problem: Preorder Traversal of a Binary Tree
 
 	Given a binary tree, print or return the values of the nodes
-	in preorder traversal order: Root → Left → Right
+	in preorder traversal order: Root -> Left -> Right
 
 	Example:
 		   1

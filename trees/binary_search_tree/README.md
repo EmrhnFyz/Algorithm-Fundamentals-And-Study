@@ -44,7 +44,7 @@ This ordering enables **efficient searching, insertion, and deletion** operation
 ## 💡 Why Use a BST?
 
 - Average time complexity:  
-  - **Search/Insert/Delete** → O(log n) (balanced)  
+  - **Search/Insert/Delete** -> O(log n) (balanced)  
   - Worst case: O(n) (degenerate/skewed)
 
 - **Inorder traversal** of a BST always gives a **sorted sequence**  

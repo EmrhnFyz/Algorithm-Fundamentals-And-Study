@@ -64,7 +64,7 @@ while (fast && fast->next)
 - 🧠 Space: O(1) — no extra memory (except pointers)
 
 ## Pitfalls
-- Forgetting to check `fast && fast→next` before accessing `fast→next→next`
+- Forgetting to check `fast && fast->next` before accessing `fast->next->next`
 - Misplacing the meeting condition
 - Infinite loops if the exit condition isn't properly written
 

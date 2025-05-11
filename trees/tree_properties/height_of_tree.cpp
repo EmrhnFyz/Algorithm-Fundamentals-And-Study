@@ -58,7 +58,7 @@ TreeNode* BuildSampleTree()
 		/     \
 	   4       5
 
-	Height = 2 (path: 1 → 3 → 5 or 1 → 2 → 4)
+	Height = 2 (path: 1 -> 3 -> 5 or 1 -> 2 -> 4)
 	*/
 	TreeNode* root = new TreeNode(1);
 	root->left = new TreeNode(2);

@@ -78,7 +78,7 @@ TreeNode* buildSampleTree()
 			  / \
 			 15  7
 
-	Max path: 15 → 20 → 7 = 42
+	Max path: 15 -> 20 -> 7 = 42
 	*/
 	TreeNode* root = new TreeNode(-10);
 	root->left = new TreeNode(9);

@@ -74,7 +74,7 @@ Graph representations:
     - [Floyd-Warshall (All-Pairs)](shortest_paths/floyd_warshall.cpp)
 4. [**📁 Minimum Spanning Tree (MST)**](mst)
     - [Prim’s Algorithm](mst/prim.cpp)
-    - [Kruskal’s Algorithm + Union-Find](mst/kruskal.cpp)
+    - [Kruskal’s Algorithm](mst/kruskal.cpp)
 5. [**📁 Union-Find (Disjoint Set)**](union_find)
     - [Cycle Detection](union_find/cycle_detection.cpp)
     - [Union by Rank + Path Compression](union_find/optimized_union_find.cpp)

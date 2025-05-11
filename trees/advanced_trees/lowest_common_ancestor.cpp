@@ -7,11 +7,11 @@
 	----------------------------------------------------
 	Idea:
 	- Use post-order traversal:
-		- If current node is null → return null
-		- If current node is p or q → return current
+		- If current node is null -> return null
+		- If current node is p or q -> return current
 		- Recursively search left and right subtrees
-		- If both sides return non-null → this node is LCA
-		- If only one side returns non-null → propagate it upward
+		- If both sides return non-null -> this node is LCA
+		- If only one side returns non-null -> propagate it upward
 
 	Learning Highlights:
 	- Time Complexity: O(n) — visit every node once
@@ -45,7 +45,7 @@ TreeNode* LowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q)
 
 	if (left && right)
 	{
-		return root;         // Both sides returned non-null → current is LCA
+		return root;         // Both sides returned non-null -> current is LCA
 	}
 
 	return left ? left : right;            // Only one side has an answer

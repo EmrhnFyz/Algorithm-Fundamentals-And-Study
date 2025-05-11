@@ -2,11 +2,11 @@
 	Problem: Topological Sort (Kahn’s Algorithm)
 
 	Given a directed acyclic graph (DAG), return a topological ordering of its nodes.
-	A topological order is a linear sequence where for every directed edge u → v,
+	A topological order is a linear sequence where for every directed edge u -> v,
 	node u comes before v in the order.
 
 	----------------------------------------------------
-	💡 Idea:
+	Idea:
 	- Count in-degrees for all nodes.
 	- Add all nodes with in-degree 0 to a queue.
 	- While the queue is not empty:
@@ -14,7 +14,7 @@
 		- Reduce in-degree of its neighbors
 		- If any neighbor’s in-degree drops to 0, add it to the queue
 
-	🔍 Learning Highlights:
+	Learning Highlights:
 	- Time Complexity: O(V + E)
 	- Space Complexity: O(V)
 	- Works only for DAGs (must check for cycle if topological sort fails)
@@ -83,9 +83,9 @@ vector<vector<int>> BuildSampleGraph(int& n)
 {
 	/*
 		DAG:
-		5 → 0 ← 4
+		5 -> 0 ← 4
 		↓
-		2 → 3
+		2 -> 3
 		↑
 		1
 

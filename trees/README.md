@@ -38,9 +38,9 @@ They unlock efficient algorithms for many hard problems:
 ## How?
 
 Many tree algorithms rely on **recursive depth-first traversal**:
-- Pre-order (root → left → right)
-- In-order (left → root → right)
-- Post-order (left → right → root)
+- Pre-order (root -> left -> right)
+- In-order (left -> root -> right)
+- Post-order (left -> right -> root)
 
 And some rely on **breadth-first traversal**:
 - Level-order (visit all nodes level by level using a queue)

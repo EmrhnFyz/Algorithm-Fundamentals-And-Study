@@ -16,7 +16,7 @@
 
 	Learning Highlights:
 	- Time Complexity: O(h), where h = height of the tree
-		→ O(log n) for balanced trees, O(n) for skewed ones
+		-> O(log n) for balanced trees, O(n) for skewed ones
 	- Space Complexity: O(h) recursive stack (or O(1) if iterative)
 	----------------------------------------------------
 */

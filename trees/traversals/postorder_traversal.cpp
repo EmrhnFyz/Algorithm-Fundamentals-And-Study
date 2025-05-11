@@ -2,7 +2,7 @@
 	Problem: Postorder Traversal of a Binary Tree
 
 	Given a binary tree, print or return the values of the nodes
-	in postorder traversal order: Left → Right → Root
+	in postorder traversal order: Left -> Right -> Root
 
 	Example:
 		   1

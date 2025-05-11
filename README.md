@@ -107,8 +107,17 @@ Each folder corresponds to a major topic. Start with the ones most relevant to y
    - [X] [**📁 Topological Sort**](graphs/topological_sort)
      - [X] [Kahn's Algorithm](graphs/topological_sort/kahn_toposort.cpp) 
    - [X] [**📁 Shortest Paths**](graphs/shortest_paths)
+     - [X] [Dijkstra's Algorithm](graphs/shortest_paths/dijkstra.cpp)
+     - [X] [Bellman-Ford Algorithm](graphs/shortest_paths/bellman_ford.cpp) 
+     - [X] [Floyd-Warshall Algorithm](graphs/shortest_paths/floyd_warshall.cpp)]
    - [X] [**📁 Minimum Spanning Tree**](graphs/minimum_spanning_tree)
+     - [X] [Kruskal's Algorithm](graphs/minimum_spanning_tree/kruskal.cpp)]
+     - [X] [Prim's Algorithm](graphs/minimum_spanning_tree/prim.cpp)] 
    - [X] [**📁 Union Find**](graphs/union_find)
+     - [X] [Union Find(Basic Find + Union usage)](graphs/union_find/union_find.cpp)
+     - [X] [Union Find(Union by Rank optimization)](graphs/union_find/union_by_rank.cpp)
+     - [X] [Path Compression](graphs/union_find/path_compression.cpp)
+     - [X] [Cycle Detection](graphs/union_find/cycle_detection.cpp) 
        
 ### 5. **Linked Lists, Stacks & Queues**
    - [ ] Linked-List Manipulations (reverse list, detect/remove cycle via Floyd’s algorithm)

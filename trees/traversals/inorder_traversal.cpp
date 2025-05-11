@@ -2,7 +2,7 @@
 	Problem: Inorder Traversal of a Binary Tree
 
 	Given a binary tree, print or return the values of the nodes
-	in inorder traversal order: Left → Root → Right
+	in inorder traversal order: Left -> Root -> Right
 
 	Example:
 		   1

@@ -70,7 +70,7 @@ TreeNode* BuildSampleTree()
 				\
 				 6
 
-	Longest path: 4 → 2 → 1 → 3 → 5 → 6 (5 edges)
+	Longest path: 4 -> 2 -> 1 -> 3 -> 5 -> 6 (5 edges)
 	*/
 	TreeNode* root = new TreeNode(1);
 	root->left = new TreeNode(2);

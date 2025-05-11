@@ -8,8 +8,8 @@
 	Idea:
 	- Use recursion to locate the node.
 	- Once found, handle 3 cases:
-		1. Node has **no children** → return nullptr.
-		2. Node has **one child** → return the child.
+		1. Node has **no children** -> return nullptr.
+		2. Node has **one child** -> return the child.
 		3. Node has **two children**:
 			- Find the **inorder successor** (smallest in right subtree),
 			- Copy its value into the current node,
