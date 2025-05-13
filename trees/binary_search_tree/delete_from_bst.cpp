@@ -103,11 +103,11 @@ void Inorder(TreeNode* root)
 TreeNode* BuildSampleBST()
 {
 	/*
-			 6
-			/ \
-		   3   8
-		  / \    \
-		 2   5    9
+	       6
+	      / \
+	     3   8
+	    / \    \
+	   2   5    9
 	*/
 	TreeNode* root = new TreeNode(6);
 	root->left = new TreeNode(3);
