@@ -75,8 +75,8 @@ TreeNode* buildSampleTree()
 		   -10
 		   /  \
 		  9   20
-			  / \
-			 15  7
+	         / \
+		15  7
 
 	Max path: 15 -> 20 -> 7 = 42
 	*/
