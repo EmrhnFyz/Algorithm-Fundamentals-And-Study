@@ -59,7 +59,7 @@ TreeNode* BuildSampleTree(TreeNode*& p, TreeNode*& q)
 		  / \
 		 5   1
 		/ \ / \
-	   6  2 0  8
+	       6  2 0  8
 		 / \
 		7   4
 
