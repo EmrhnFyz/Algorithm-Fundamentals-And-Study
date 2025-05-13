@@ -22,7 +22,7 @@ This project is organized into eleven major topics, each covering essential algo
 Each folder corresponds to a major topic. Start with the ones most relevant to your goals.
 ### 3. **Run examples**:
 - **Via IDE**:
-  - Open your solution or folder in your chosen IDE (e.g., Rider, VS Code, CLion).
+  - Open your solution or folder in your chosen IDE (e.g., Rider,VS , VS Code, CLion).
   - Build the project or file and click Run. Your IDE will handle compilation and execution.
 - **Via command line:**
   - Navigate to the folder containing the C++ file you want to run.
@@ -109,10 +109,10 @@ Each folder corresponds to a major topic. Start with the ones most relevant to y
    - [X] [**📁 Shortest Paths**](graphs/shortest_paths)
      - [X] [Dijkstra's Algorithm](graphs/shortest_paths/dijkstra.cpp)
      - [X] [Bellman-Ford Algorithm](graphs/shortest_paths/bellman_ford.cpp) 
-     - [X] [Floyd-Warshall Algorithm](graphs/shortest_paths/floyd_warshall.cpp)]
+     - [X] [Floyd-Warshall Algorithm](graphs/shortest_paths/floyd_warshall.cpp)
    - [X] [**📁 Minimum Spanning Tree**](graphs/minimum_spanning_tree)
-     - [X] [Kruskal's Algorithm](graphs/minimum_spanning_tree/kruskal.cpp)]
-     - [X] [Prim's Algorithm](graphs/minimum_spanning_tree/prim.cpp)] 
+     - [X] [Kruskal's Algorithm](graphs/minimum_spanning_tree/kruskal.cpp)
+     - [X] [Prim's Algorithm](graphs/minimum_spanning_tree/prim.cpp)
    - [X] [**📁 Union Find**](graphs/union_find)
      - [X] [Union Find(Basic Find + Union usage)](graphs/union_find/union_find.cpp)
      - [X] [Union Find(Union by Rank optimization)](graphs/union_find/union_by_rank.cpp)
