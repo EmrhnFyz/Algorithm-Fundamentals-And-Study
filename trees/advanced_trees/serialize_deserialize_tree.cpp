@@ -97,8 +97,8 @@ TreeNode* BuildSampleTree()
 		   1
 		  / \
 		 2   3
-			/ \
-		   4   5
+		/ \
+	       4   5
 	*/
 	TreeNode* root = new TreeNode(1);
 	root->left = new TreeNode(2);
